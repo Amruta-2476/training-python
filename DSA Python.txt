@@ -1,0 +1,22 @@
+DSA Python
+
+https://www.codility.com/ 
+resume - mention what u learned, api, 
+
+for loop and while diffeernce with example
+object oriented and 
+c and c++ applications which can be made
+
+
+python code > byte code > python virtual macince(interpreter)> machine code > output
+when we run prog, code gets converted into byte code. 
+byte code converted by pvm into machine code, so its like interpreter
+
+Q. python is dynamicalyy typed => coz u dont have to define data type of any variable, it is already understood. it is the responsibility of the python interpreter to understand what value you have given to the variable
+
+variable = temp container to store value, it is the naem given to a memory loction
+
+
+
+do string, list, dictionary, array(1d 2d)   ==> main * *
+                                                      U
