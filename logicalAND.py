@@ -12,6 +12,8 @@ if p1>=40 and p2>=40 and p3>=40:
     print("Student passed")
     if (gen == 'male' and percentage>= 60) or (gen=='female' and percentage>=55):
         print("Student is eligible for placement")
+    else:
+        print("Student is not eligible for placement")
 else:
     print("Student failed")
 

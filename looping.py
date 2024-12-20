@@ -42,6 +42,12 @@ Q)
 #     if i==3 or j==3:
 #           continue
 #     print(i,j)
+for i in range(1, 6):      # i goes from 1 to 5
+    j = 6 - i              # Calculate j (5 to 1) based on i
+    if i == 3 or j == 3:   # Skip if either i or j equals 3
+        continue
+    print(i, j)
+
 
 
 # Q) wap to accept one character either lower case, upper case or digit or special character and print the type of character
