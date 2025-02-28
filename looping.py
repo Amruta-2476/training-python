@@ -24,10 +24,16 @@
 44 48 52 56 60 64 68 72 76 80
 55 60 65 70 75 80 85 90 95 100
 '''
-# for i in range(1, 11):
-#     for j in range(2, 11):
-#            print(i*j, end="\t")
-#     print()
+rows = 10
+cols = 10
+
+# Outer loop for rows
+for i in range(1, rows + 1):
+    # Inner loop for columns
+    for j in range(1, cols + 1):
+        print(f"{i * j:4}", end="")
+    print()  # Move to the next line after each row
+
     
 
 
