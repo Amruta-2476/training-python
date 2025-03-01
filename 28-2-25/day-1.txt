@@ -1,0 +1,81 @@
+contd from day-1.ipynb
+
+computer has a log file, it tells ki last computer mei data kaha store
+computer mein data delete nhi hota, over-write hota hai
+
+if variable is member data, then 0   (member data means class ke andar define kiya hai)
+if variable is local data then garbage value
+
+
+
+class Student      # in python ig class Student()
+{
+    int roll;
+    string name;
+    static string cn;
+    void acpData()   # how will it know ki konse object ke roll ko dena hai? => jo object use call karega
+    {
+        roll = ?
+        nam = ?
+    }
+}
+s1.acpData();
+s2.acpData();
+s3.acpData();
+
+
+int y;    y is declared
+y = 9;    y is defined or initialized
+int x = 8;   is assignment, declared and initialized
+
+
+
+
+
+# => CONTRUCTOR : initializes the object. means object ke e=members ko initialize karna, constructor is a member function
+in java : 
+in python : def __init__(self):  method
+# types : defualt, parameterized, copy
+
+
+
+argument = value we pass/give
+paramenter = thing that receives argument, in declaration
+
+
+
+
+### MODULES :
+> example.py there is some code here
+def add(a,b):
+    print('sum',a+b)
+
+> work.py => we wnat the function inside the example.py module i.e file
+import example
+example.add(5,3)
+
+
+
+
+
+
+## POLYMORPHISM 
+> compile time polymorphism => method overloading 
+> run time polymorphism => method overriding
+*** CHECK METHOD OVERLOADING AND OVERRIDING ***
+
+same name method but different argment => method overloading = it is compile time polymorphism   (capacity se yaad) **same class in overloading....compile time coz when u make the 2nd function with same name then it will highlight even befor running until and unless you differentiate the parameters
+
+
+method overriding ..different classes. parent class property overwritten by child class property. when inheritance happens 
+in overriding both the name and parameters are same 
+if 
+class A
+{
+    void bike(int a){......}
+}
+class B extends A
+{
+    void bike(int a, int b){;;;;;;;;;;;;}
+}
+this is overloading, not overriding
