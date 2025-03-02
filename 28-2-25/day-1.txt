@@ -79,3 +79,7 @@ class B extends A
     void bike(int a, int b){;;;;;;;;;;;;}
 }
 this is overloading, not overriding
+
+
+
+IS CLASS NOTHING BUT STRUCTURE IN C LANG

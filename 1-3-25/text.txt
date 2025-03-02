@@ -1,0 +1,69 @@
+utf-8 => (encoding) 
+diffference between ascii and unicode 
+=> ascii is only of english character alphabets  (american standard)
+=> unicode is of majorly all language character alphabets  (universal code)  (so basically ascii code + some extra ..= unicode)
+
+1 byte = 8 bit 
+1 bit = 0 or 1 
+2 bits = highest value stored is 3
+3 bits = highest value stored is 7 (0-7) 8 coz 2^3
+4 bits = highest value stored is 15 (0-15) 16  coz 2^4
+
+so for 8-bits = 1 byte => range 2^(8-1) = 255 divide by 2 coz we have to store both +ve and -ve so [-127 to +127]
+
+what is %d and %u => if range ke upar you try to print a int number using %d it gives garbage value, but with %u it gives correct answer
+%u = unsigned. 
+
+eg :
+2 byte = 65535 = 2^(16-1)
+[-32768, +32767]
+with %u it will be [0, 65535]
+
+
+so UTF-8 mein A =65  ...in hexadecimal = 41. so in UTF-8 mein A ki value =41
+convert 41 to 8bit binary ...  01000001
+
+
+in word if you type 0041 then do Alt+x the it gets converted to A
+and if u write unicode of 'a' in marathi then it gets converted to marathi wala 'a' 0905
+
+
+
+
+
+
+
+ACCESS SPECIFIERS V/S ACCESS MODIFIERS :  ****** both are same ******  for java and python
+in python access specifier, are also called access modifiers.
+they control the visibility and accessibility of class attributes and methods
+in java and cpp it is strict, but not strict in python
+class MyClass:
+    def msg(self,x):
+        self.x = 50
+        print('this is public method by default')
+ob = MyClass()
+print(ob.x)
+print(ob.x)
+
+
+
+
+# exception v/s error
+error = programmer cannot solve error => runtime 
+exception = programmer can solve through coding .... types => compile time and runtime exception
+exception handling can sometimes be done using if...not always tho
+
+check exceptionn = compiler knows these ie built in like ZeroDivisionErro, TypeError(if 'hi'/10)
+uncheck exception 
+
+we have to do exception handling, coz if compiler catches it, it wont execute the rest of the code. hence we have to handle it
+
+
+
+GENERATORS +
+a generator in python, is special type of iterator that allows you to iterate over data lazily. (one item at a time, using the yield keyword)   can return multiple values using yield
+unlike normal function that returns a value and terminates
+it remembers its state and can resume execution when called again
+GENERATOR v/s NORMAL FUNCTIONS :
+a normal function runs all at onc and returns single value,
+generator pauses when yield is encountered and resumes from there when next if found
