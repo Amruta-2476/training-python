@@ -1,6 +1,9 @@
 from abc import ABC, abstractmethod     # abstract base classes
 # ABC is a class
 
+
+# abstract class should have atleast ONE abstractmethod
+
 class Bank(ABC):    # ABC is abstract class so it needs to be inherited  
     def loan(self):
         print('1cr loan approved')

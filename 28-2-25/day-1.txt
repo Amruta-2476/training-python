@@ -60,7 +60,7 @@ example.add(5,3)
 
 
 ## POLYMORPHISM 
-> compile time polymorphism => method overloading 
+> compile time polymorphism => method overloading   (python deos not support method overloading)
 > run time polymorphism => method overriding
 *** CHECK METHOD OVERLOADING AND OVERRIDING ***
 

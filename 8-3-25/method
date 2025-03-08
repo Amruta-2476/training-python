@@ -1,0 +1,19 @@
+difference between method and fuction 
+= function is called using calling function
+= method called using dot operator with object
+
+
+
+python supports all types inheritance, java does not support multiple nheritance
+give example of multiple inheritance..? bcoz the issue that if A class has add method, B class also has add method. so their child class will have kiska add method
+iska solution is interface
+
+multiple inheritance mein... pehle jo class a rha hai like 
+class C(A,B):    So A ka method will be considered
+
+
+DS provides ways to store access modify data, crud operations 
+
+
+
+
