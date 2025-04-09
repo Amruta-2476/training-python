@@ -1,0 +1,73 @@
+int main()
+{
+    int val = 5;
+    do
+    {
+        val++;    6
+        ++val;    7
+    }
+    while(val++ >7);    7>7 false   out of loop   while check karte waqt increment hua wo to 8
+    printf('%d',val);   8
+    return 0;
+}
+
+
+
+int main()
+{
+    int i = 0;
+    while(+(+i--)!=0)       ++(-1)     => 0!=0    false    if brackets not give then 
+    i=i+5
+    print("%d",i);       -1 for some reason (check)
+}
+
+
+
+
+DATATYPES :
+predefined => int , float, char, double, str
+user-defined => structure, class
+# difference between float and double
+
+** check class object in cpp as well
+
+
+
+--------------------------- java ----------------------------------------
+Student s1 = new Student();
+                    |
+                    v
+                constructor 
+# s1 = refernce variable     (stores address of the new Student() object) so that you can access the data in the class by using s1.roll.....basically to reach the created object
+# new Student() is the actual object
+# new is for memory allocation
+
+what is refernce variable, what is its need. why pointer
+ref var => points object
+
+we can make an object just by doing :
+new Student();
+
+
+
+why is C not seure but python and java is secure? 
+=> pointer as we can hack if we kknow the address of some variable. 
+
+
+what does id() print in python ? check
+
+static memory allocation and dynamic memory allocation? check 
+=> basically define a static men=mory (means set memory)...dynamic means it can grow. instagrm faceboook is dynamic mem allocation
+
+
+constructor => 
+initialize the object..when object created constructor is called. constructor initializes memory to object
+even if constructor not created then also memory is initialized to the object due to default constructor. defualt constructo is called in the background by interpreter
+
+
+self is also a local var, self = (address of the caller object) i.e s1 ka address
+like this pointer, points itself...self also points itself....ie points to the object....
+if s1 ref var ka object ka address is 100 ....then s1 = 100 store hoga
+and                                              self = 100 store hoga
+
+
